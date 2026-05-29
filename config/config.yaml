@@ -246,8 +246,8 @@ notification:
     feishu:
       webhook_url: ""                 # 飞书机器人 webhook URL
 
-    dingtalk:
-      webhook_url: ""                 # 钉钉机器人 webhook URL
+   dingtalk:
+    webhook_url: "${{ secrets.DINGTALK_WEBHOOK_URL }}"                 # 钉钉机器人 webhook URL
 
     wework:
       webhook_url: ""                 # 企业微信机器人 webhook URL
